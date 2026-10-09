@@ -1,6 +1,6 @@
 // QR Lab launcher: network-first, falls back to cache when offline.
-const CACHE = "qrlab-launcher-v1";
-const CORE = ["./", "index.html", "manifest.webmanifest", "ql1-32.png", "ql1-180.png", "ql1-192.png", "ql1-512.png", "ql1-maskable-512.png"];
+const CACHE = "qrlab-launcher-v2";
+const CORE = ["./", "index.html", "manifest.webmanifest", "ql2-32.png", "ql2-180.png", "ql2-192.png", "ql2-512.png", "ql2-maskable-512.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting()));

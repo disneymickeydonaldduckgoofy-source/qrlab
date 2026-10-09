@@ -5,20 +5,20 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>QR Lab</title>
 <meta name="description" content="QRコード読み取りツール QR Lab の入口">
-<meta name="theme-color" content="#15130f">
+<meta name="theme-color" content="#141414">
 <meta name="robots" content="noindex">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="QR Lab">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" type="image/png" sizes="32x32" href="ql1-32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="ql1-192.png">
-<link rel="apple-touch-icon" href="ql1-180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="ql2-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="ql2-192.png">
+<link rel="apple-touch-icon" href="ql2-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&family=IBM+Plex+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 <style>
-:root{--ground:#efefec;--panel:#ffffff;--ink:#15130f;--sub:#5e5a52;--rule:#dcdcd8;--accent:#ff9500;--accent-fg:#15130f}
+:root{--ground:#efefec;--panel:#ffffff;--ink:#141414;--sub:#5e5a52;--rule:#dcdcd8;--accent:#ff9500;--accent-fg:#141414}
 *{box-sizing:border-box}
 html,body{margin:0}
 body{background:var(--ground);color:var(--ink);font-family:"IBM Plex Sans JP","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;min-height:100vh;min-height:100dvh;display:flex;align-items:center;justify-content:center;padding:24px 16px}
@@ -45,7 +45,7 @@ body{background:var(--ground);color:var(--ink);font-family:"IBM Plex Sans JP","H
 <main class="panel">
   <header class="band"><h1>QR LAB</h1><span>LAUNCHER</span></header>
   <div class="body">
-    <img src="ql1-192.png" alt="" width="112" height="112">
+    <img src="ql2-192.png" alt="" width="112" height="112">
     <p class="msg" id="msg">ホーム画面に追加すると、このアイコンからQR Labを開けます。</p>
     <a class="btn primary" id="open" href="https://claude.ai/artifact/NJiEkMdhozzn6JCJUAWvBz">QR Labを開く</a>
     <button class="btn secondary" id="install" type="button" hidden>ホーム画面に追加</button>
@@ -55,7 +55,7 @@ body{background:var(--ground);color:var(--ink);font-family:"IBM Plex Sans JP","H
       <li><b>3</b><span>「追加」「インストール」をタップ</span></li>
     </ol>
   </div>
-  <footer class="foot"><span>qrlab</span><span>v1</span></footer>
+  <footer class="foot"><span>qrlab</span><span>v2</span></footer>
 </main>
 <script>
 (function(){
